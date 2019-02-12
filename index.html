@@ -1,62 +1,84 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-<meta charset="UTF-8">
-<!-- linking CSS -->
-<link rel="stylesheet" href="style.css">
-<!-- Title -->
-<title>Richard Mai</title>
-</head>
-<!-- Creating a Container -->
-<div id="container">
-    <!-- Creating a Header -->
-    <main>
-    
-    <div id="titleHeader" class="imageBorder"><header>Header</header></div>
-    <br>
-    <!-- Creating a NavBar -->
-    <div id="nav-bar" class="imageBorder">
-        <ul><a href="#">Nav Bar</a></ul>   
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact Me</a></li>
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel ="stylesheet" href="style.css">
+        <title>1.3 Floats in CSS</title>
+    </head>
+    <body>
+        
+        <!-- Created a Container-->
+        <div id="container">
+            <!-- Header on Top-->
+            <header id="header">Header</header>
+            <!-- Created a section for the Navbar right underneath. -->
+            <br>
+            <section>
+                <ul id="navbar">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </section>
+            <!-- break line -->
+            <br>
+            
+            <!-- Created a section here to hold the left middle and right sections. -->
+            <div id="section">
+            <section id="left">
+            <article>
+                    <h2 class="headerText">About Us<h2>
+                        <p class="paragraphText">Apple Computer 1, also known later as the Apple I, or Apple-1, is a desktop computer released by the Apple Computer Company (now Apple Inc.) in 1976. It was designed and hand-built by Steve Wozniak.[1][2] Wozniak's friend Steve Jobs had the idea of selling the computer[citation needed]. The Apple I was Apple's first product, and to finance its creation, Jobs sold his only motorized means of transportation, a VW Microbus,[3] for a few hundred dollars, and Steve Wozniak sold his HP-65 calculator for $500; however, Wozniak said that Jobs planned to use his bicycle if necessary.[4] It was demonstrated in July 1976 at the Homebrew Computer Club in Palo Alto, California.[5]
 
-    </div>  
+                                Production was discontinued on September 30, 1977, after the June 10, 1977 introduction of its successor, the Apple II, which Byte magazine referred to as part of the "1977 Trinity" of personal computing (along with the PET 2001 and the TRS-80).[6]</p>
+                </article>
+            </section>
+            <section id="middle">
+                    <h2 class>Products</h2>
+            </section>
+            <h1></h1>
+            
 
-    <!-- Creating a section -->
-    <section id="section" class="imageBorder"> 
-    <aside>
-        <!-- Section Header -->
-    <h1 class="sectionText">What is Lorem Ipsum? (SECTION)</h1> 
-        <!-- Creating Article -->
-    <article>
-    <h2>Why do we use it? (ARTICLE)</h2>
-    <p>It is a long establisour and the like).</p>
-    <h3>Where does it come from?(PARAGRAPH)</h3>
-    <img src="https://tse1.mm.bing.net/th?id=OIP.B5RUm5-L1uxQh6ZhW1EBOwHaEK&pid=15.1&P=0&w=290&h=164">
-    <p>The standard Lorem Ipsum passage, used since the 1500
-        </p>
-    </article></aside></section>
+            </section>  
 
-    <br>
-    <aside>
-    <section id="aside" class="imageBorder">
-    <h2>This is an Aside</h2>
-    <img src="https://tse1.mm.bing.net/th?id=OIP.B5RUm5-L1uxQh6ZhW1EBOwHaEK&pid=15.1&P=0&w=290&h=164" class="fit-img">
+            <section id="right">
+            <h1>Testimonials</h1>
 
-</aside>
-
-</main>
-</section>
-
+            </section>
 <br>
-<br>
-    <div id="Footer">Footer</div>
-</div>
-<body>
+                </div>
+            <br>
+            <br>
+            <!-- Created a div called full to hold our aside -->
+            <div id="full">
+            <!-- Created Aside inside of the div id="mainContent" that will contain the section and aside. Again, we did this because we want both of these to float together-->
+            <aside id="aside">
+                <h1> <a href="href=www.google.com" class="blackText">Apple Watch</a></h1>
+                <img src="http://cdn.cultofmac.com/wp-content/uploads/2015/04/20140424_apple-watch_0026.jpg" width=400 height=200 alt="Example Image" class="imageFit">
+            </aside>
+            <section id="division">
+                <h2 class="underLine">Only $190.99</h2>
+                <p>Buy now! Read more at <a href="#">apple-store.com</a></p>
+            </section>
+            <div id="thing">
+                <h2>All new. For a better you.</h2>
+                <p>Introducing Apple Watch Series 4. Fundamentally redesigned and re-engineered to help you stay even more active, healthy, and connected.</p>
+            </div>
+            
+            <!-- Full div. -->
+            </div>
 
-</div>
-</body>
+            <br>
+            <br>
+
+            <footer>
+                <h1>Footer</h1>
+            </footer>
+            
+            
+            <!-- This is the container Div-->
+        </div>
+        <!-- close Body -->
+    </body>
 
 </html>

@@ -1,102 +1,107 @@
-#titleHeader {
-    text-align: center;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 72px;
-    font-weight: bold;
-    background-color: gray;
-    color: black;
-    text-decoration: underline;
-    margin: 0 auto;
-
-}
-
 #container {
     width: 1024px;
     margin: 0 auto;
-    height: 100%;
 }
-#nav-bar {
-    font-size: 20px;
-    text-decoration: underline;
-    color: blue;
-    background-color: gray;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
 body {
-    background-color: #efeee7;
-    margin: 0;
-    font-family: 'Georgia';
-    margin: 0px; 
+    font-family: 'Arial';
+    background-color: white;
 }
 
-#section, #aside {
-    float: left;
-    background-color: gray;
+#header {
+    background-color: #ccc;
+    font-family: 'Georgia';
+    font-size: 72px;
+    text-align: center;
+    border: solid navy 3px;
+    padding: 20px;
+}
+#navbar {
+    background-color: #666;
+    border: solid navy 3px;
+    font-family: 'Times New Roman';
+    color: blue;
+    padding: 20px;
+    background-color: #ccc;
+}
 
-} 
-#section {
-    width: 45%;
-    height: 50%;
-    background-color: gray;
-    color: navy;
-    text-align: left;
+#left {
+    float: left;
+    background-color: #ccc;
+    width: 33%;
+    overflow: auto;
+}
+
+#middle {
+    float: left;
+    background-color: #ccc;
+    width: 33%;
+    overflow: auto;
+}
+#right {
+    float: left;
+    background-color: #ccc;
+    width: 33%;
+    overflow: auto;
+}
+
+#full {
+    clear: both;
+    background-color: #eee;
+    overflow: auto;
+    width: 100%;
+    border: 4px solid navy;
+}
+
+#division {
+    background-color: #white;
+    padding: 20px;
 }
 
 #aside {
-    width: 50%;
-    margin-left: 20px;
-    margin-top: -20px;
-    font-family: 'Georgia';
-    font-size: 40px;
-    color: navy;
-    text-align: center;
+    border: 3px solid black;
+    width: 33%;
+    background-color: white;
+    float: left;
 }
-.sectionText {
-    text-align: center;
-    font-family: 'Georgia';
-    font-size: 40px;
-}
-.aside2 {
-    float: right;
-    margin-left: -10px;
-    margin-top: -10px;
-    background-color: gray;
-    width: 50%;
-    height: 200px;
-}
-.fit-img {
-    height: 100%;
-    width: 100%;
-}
-.float-img {
-    float: right;
-    clear: right;
-}
-.imageBorder {
-    border-style: solid;
-    border-width: 5px;
-    border-color: navy;
+#thing {
+    background-color: white;
+    border: solid black 5px;
 
 }
-#Footer {
-    position: absolute;
-    margin: 0px auto;
-    padding-bottom: 20px;
-    bottom: 0;
+
+.underLine {
+    text-decoration: underline;
+}
+
+.blackText {
+    color: black;
+}
+
+.imageFit {
     width: 100%;
-    height: 60px;
-    background: #efeee7;
+    height: 100%;
+}
+
+footer {
+    clear: both;
     text-align: center;
     font-family: 'Georgia';
-    font-size: 72px;
-    font-weight: bold;
+    padding: 20px;
+    font-size: 30px;
+    border: solid navy 3px;
+    background-color: #ccc;
+    position: absolute;
+}
+
+/* class for paragraph text */
+.paragraphText {
+    font-family: 'Arial';
+    font-size: 16px;
+}
+/* class for header text */
+.headerText {
+    font-family: 'Arial';
+    font-size: 36px;
     text-decoration: underline;
-    background-color: gray;
-    color: navy;
-    max-width: 1024px;
-    float: none;
-    border-style: solid;
-    border-color: navy;
+    font-weight: bold;
 }
